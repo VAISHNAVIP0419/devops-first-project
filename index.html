@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My DevOps Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #232526, #414345);
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #FF6F61;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 1.6;
+            color: #DCDCDC;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px 60px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            width: 60%;
+            max-width: 600px;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #FF6F61;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #E74C3C;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 80%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My DevOps Project</h1>
+        <p>This landing page is served using Nginx running inside a Docker container. It's part of my journey as a future DevOps engineer!</p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+</body>
+</html>
